@@ -1,4 +1,5 @@
 import random
+
 import time
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
@@ -18,11 +19,11 @@ print("Enter an integer: ")
 size = int(input("Number: "))
 
 chooseAlgorithm = """Select your algorithm
-        1. Bubble Sort
-        2. Insertion Sort
+        1. Quick Sort
+        2. Selection Sort
         3. Merge Sort
-        4. Quick Sort
-        5. Selection Sort
+        4. Bubble Sort
+        5. Insertion Sort
         6. Quit"""
 
 print(chooseAlgorithm)
